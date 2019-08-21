@@ -14,3 +14,14 @@ body {
 	margin-top: 20px;
 }
 
+.movies-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card{
+	margin-top: 5em;
+	width: 20em;
+}
