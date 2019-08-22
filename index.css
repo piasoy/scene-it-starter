@@ -1,15 +1,43 @@
 body {
-	background-color: #B2E9FD;
+	/* background-color:#D1DBBD; */
+	background-color: #F5FDFF;
 }
 
 .header h2 {
-	color: #DC4247;
+	font-family: 'Shadows Into Light', cursive;
+	color:#0B0C0D;
+	padding-top: 1em;
 }
 
 .header p {
 	color: #50524F;
 }
 
+.emphasize{
+	color: #193441;
+	font-weight: bolder;
+}
+.btn-primary {
+	background-color: #D1E8E7;
+	border: 2px solid #0B0C0D;
+	color: #0B0C0D;
+}
+
+
+.btn-primary:hover, .btn-primary:active{
+	background-color: #D1DDE8;
+}
+
+.btn-primary:disabled {
+    color: #fff;
+    background-color:lightgrey;
+	border-color: lightgrey;
+}
+
+.watchlist-link{
+	text-align: center;
+	margin-top: 20px;
+}
 .results {
 	margin-top: 20px;
 }
@@ -24,4 +52,12 @@ body {
 .card{
 	margin-top: 5em;
 	width: 20em;
+	/* background-color: #91AA9D; */
+	background-color: #F5FDFF;
+	/* border: 5px solid #FCFFF5; */
+	border: 3px solid #0B0C0D;
+	border-radius: 50px;
+	padding: 50px;
+	text-align: center;
 }
+
